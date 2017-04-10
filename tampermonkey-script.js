@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name PluralSight custom speeds
 // @namespace https://techotom.wordpress.com
-// @version 0.1
+// @version 0.2
 // @description more fasterer
 // @author Tom
 // @match https://app.pluralsight.com/player*
@@ -26,7 +26,7 @@
         speedAnchor.style.display = "block";
         speedAnchor.style.cursor = "pointer";
         speedAnchor.onclick = function() {
-            localStorage.setItem("playbackSpeed", (speed * 10));
+            localStorage.setItem("playbackRate", (speed));
             document.getElementById('play-control').click();
             document.getElementById('play-control').click();
             resetBoldness();
