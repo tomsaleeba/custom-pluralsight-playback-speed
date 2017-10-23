@@ -38,8 +38,16 @@
         div.appendChild(speedAnchor);
     }
 
+    var css = '.techotom-speed-control { opacity: 0.1; } .techotom-speed-control:hover { opacity: 0.8; }';
+    var head = document.head || document.getElementsByTagName('head')[0];
+    var style = document.createElement('style');
+    style.type = 'text/css';
+    style.appendChild(document.createTextNode(css));
+    head.appendChild(style);
+
     var body = document.getElementsByTagName('body')[0];
     var div = document.createElement("div");
+    div.classList = 'techotom-speed-control';
     div.style.position = "fixed";
     div.style.margin = "1em";
     div.style.fontSize = "1.5em";
@@ -47,7 +55,6 @@
     div.style.zIndex = "2";
     div.style.width = "3em";
     div.style.marginTop = "6em";
-    div.style.opacity = ".5";
     appendSpeedControl(div, 1);
     appendSpeedControl(div, 1.2);
     appendSpeedControl(div, 1.3);
