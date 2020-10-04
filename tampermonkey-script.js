@@ -23,6 +23,7 @@
 
   function appendSpeedControl(div, speed) {
     var speedAnchor = document.createElement('a')
+    speedAnchor.style.color = 'grey'
     speedAnchor.style.display = 'block'
     speedAnchor.style.cursor = 'pointer'
     speedAnchor.onclick = function() {
