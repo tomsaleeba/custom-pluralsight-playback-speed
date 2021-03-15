@@ -4,7 +4,7 @@
 // @version 0.3
 // @description more fasterer
 // @author Tom
-// @match https://app.pluralsight.com/course-player*
+// @match https://app.pluralsight.com/player*
 // @grant none
 // ==/UserScript==
 
