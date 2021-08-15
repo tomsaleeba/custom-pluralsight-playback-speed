@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name PluralSight custom speeds
 // @namespace https://techotom.wordpress.com
-// @version 0.3
+// @version 0.4.1
 // @description more fasterer
 // @author Tom
-// @match https://app.pluralsight.com/player*
+// @match https://app.pluralsight.com/*player*
 // @grant none
 // ==/UserScript==
 
