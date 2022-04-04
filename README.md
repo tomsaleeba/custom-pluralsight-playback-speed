@@ -1,4 +1,5 @@
-# custom-pluralsight-playback-speed
+# ⚠️ unmaintained: I'm not currently using PluralSight
+
 Tampermonkey script to allow custom playback speeds in PluralSight site.
 
 **note:** right now, we can't change the speed on-the-fly like we used to.
